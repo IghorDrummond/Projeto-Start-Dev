@@ -1,0 +1,313 @@
+				*{
+				margin:  0;
+				padding: 0; 
+				 }
+		#geral{
+				font-family: Heebo;
+ 				width: 1152px;
+ 				height: 2300px;
+ 				margin: auto;
+				background-image: linear-gradient(-60deg, #16a085 0%, #f4d03f 100%);
+				border: 2px solid black;
+ 				  }
+ 		/*Cabeçalho do Site*/		  
+ 		#pintar{
+ 				background-image: linear-gradient(to right, #ff8177 0%, #ff867a 0%, #ff8c7f 21%, #f99185 52%, #cf556c 78%, #b12a5b 100%);
+ 				}		  
+ 		#degrade{
+ 				background-image: linear-gradient(-225deg, #FFFEFF 0%, #D7FFFE 150%);
+ 				width: 1152;
+ 				height: 20;
+ 				}	
+ 		#topo{
+ 				text-decoration: none;
+ 				width: 100%;
+ 				height: 50px;
+ 				float: top;
+ 				background-image: linear-gradient(-225deg, #FFFEFF 0%, #D7FFFE 100%);
+ 				text-align: center;
+ 				}
+ 		#pesquisar{
+ 				font: heebo;
+ 				color: black;
+ 				position: relative;
+ 			 	right: 215px;	
+ 			 	bottom: 10px;
+ 				}			
+  		#fluig{
+ 				text-decoration: none;
+ 				color: black;
+ 				margin:  5px;
+ 				}
+ 		#Blog{
+ 				text-decoration: none;
+ 				color: black;
+ 				margin: 5px;
+ 				}	
+ 		#home{
+ 				text-decoration: none;
+ 				color: black;
+ 				margin: 5px;
+ 				float: center;
+ 				}
+ 		/*apresentação e foto de perfil*/		
+ 		#Principal{
+ 				float: right;
+ 				width: 1152;
+ 				height: 288px;
+ 				align-content: center;
+ 				}
+ 		#Principal h1{
+ 				font: 44px heebo;
+ 				color: #21243D;
+ 				width: 506px;
+ 				height: 105px;
+ 				position: relative;
+ 				left: 80px;
+ 				bottom: 200px;
+ 				text-align: center;
+ 				}
+ 		#Principal h4{
+ 				color: #21243D;
+ 				position: relative;
+ 				left: 80px;
+ 				bottom: 200px;
+ 				font: 16px heebo;
+ 				text-align: left;
+ 				}
+ 		#Principal img{
+ 				position: relative;
+ 				left: 650px;
+ 				float: top;
+ 				}
+ 		#texto{
+ 				font: 20px black heebo;
+ 				position: relative;
+ 				left: 750px;
+ 				top: 75px;
+ 				}		
+ 		#botao-bnt{
+ 				background-image: linear-gradient(-60deg, #16a085 0%, #f4d03f 100%);
+ 				width: 200px;
+ 				height: 50px;
+  				text-decoration: none;
+  				font: 20px black;
+ 				}		
+ 		#curriculo{
+ 				position:  relative;
+ 				font: 20px black heebo;
+ 				text-decoration: none;
+ 				}
+ 		/*Grafico de Especialidade*/	
+ 		#grafico{
+ 				align-content: center;
+ 				width:1152px;
+ 				height: 500px;
+ 				text-align: center;	
+ 				}
+ 		#tabela{
+ 				width: 1152px;
+ 				height: 500px;
+ 				text-align: left;
+
+ 				}		
+		#htmlgra{
+ 				background-image: linear-gradient(to right, #fa709a 0%, #fee140 100%);
+ 				width: 400px;
+ 				height: 50px;
+ 				text-align: center;
+ 				font: 20px black;
+ 				}
+ 		#cssgra{
+ 				background-image: linear-gradient(to right, #fa709a 0%, #fee140 100%);
+ 				width: 330px;
+ 				height: 50px;
+ 				font: 20px black;
+ 				text-align: center;
+ 				}
+ 		#javagra{
+ 				background-image: linear-gradient(to right, #fa709a 0%, #fee140 100%);
+ 				width: 50px;
+ 				height: 50px;
+ 				text-align: center;
+ 				font: 20px black;
+				}
+		#jquerygra{
+				background-image: linear-gradient(to right, #fa709a 0%, #fee140 100%);
+				width: 40px;
+				height: 50px;
+				text-align: center;
+				font: 20px black;
+				}		
+	 	#campo1{
+	 			border: 5px solid black;
+	 			width: 400px;
+	 			height: 50px;
+	 			background-color: green;
+	 			}
+	 	#campo2{
+	 			border: 5px solid black;
+	 			width: 400px;
+	 			height: 50px;
+	 			background-color: green;
+	 			}
+	 	#campo3{
+	 			border: 5px solid black;
+	 			width: 400px;
+	 			height: 50px;
+	 			background-color: green;
+	 			}
+	 	#campo4{
+	 			border: 5px solid black;
+	 			width: 400px;
+	 			height: 50px;
+	 			background-color: green;
+	 			}						  
+	
+ 		#Sublinha{
+ 				position: relative;
+ 				top: 60px;
+ 				
+ 			    }  
+ 		#recomendacoes{
+ 				float: center;
+ 				color: black;
+ 				width:  100%;
+ 				}
+ 		#TrabalhoRe{
+ 				color: black;
+ 				position: relative;
+ 				top: 90px;
+ 				left: 500px;
+ 				font: 30px heebo;
+ 			    }			
+ 		#selecao1{
+ 				position: relative;
+ 				left: 400px;
+ 				top: 160px;
+ 				font: 30px heebo;
+ 				}
+ 		#imagemdesign{
+ 				position: relative;
+ 				left: 125px;
+ 				top: 160px;
+ 				width: 250px;
+ 				height: 200px;
+ 				}
+ 		#para1{
+ 				position: relative;
+ 				left: 145px;
+ 				top: 240px;
+ 				font: heebo;	
+ 				}			
+		#linha1{
+				position: relative;
+				top: 335px;
+				width: 800px;
+				right: 250px;
+				}
+		#linha2{
+				position: relative;
+				top: 300px;
+				width: 800px;
+				}	
+		#linha3{
+				position: relative;
+				top: 250;
+				width: 800px;
+				}
+		#linha4{
+				position: relative;
+				top: 190px;
+				width: 800px;
+				}								
+ 		#selecao2{
+ 				position: relative;
+ 				left: 145px;
+ 				top: 310px;
+ 				font: 30px heebo;
+ 				}
+ 		#imagemmarketing{
+ 				position: relative;
+ 				width: 250px;
+ 				height: 200px;
+ 				top: 310px;
+ 				right: 125px;
+ 				}
+ 		#para2{
+ 				position: relative;
+ 				top: 190px;
+ 				left: 395px;
+ 				font: black heebo;
+ 				}
+ 		#selecao3{
+ 				position: relative;
+ 				left: 400px;
+ 				top: 280px;
+ 				font: 30px heebo;
+ 				}
+ 		#imagemoffice{
+ 				position: relative;
+ 				width: 250px;
+ 				height: 200px;
+ 				top: 280px;
+ 				left: 125px;	
+ 				}
+ 		#para3{
+ 				position: relative;
+ 				left: 400px;
+ 				top: 165px;
+ 				font: heebo;
+ 				}
+ 		#selecao4{
+ 				position: relative;
+ 				left: 400px;
+ 				top: 220px;
+ 				font: 30px heebo;
+ 				}
+ 		#imamgemweb{
+ 				position: relative;
+ 				top: 220px;
+ 				left: 125px;
+ 				width: 250px;
+ 				height: 200px;	
+ 				}
+ 		#para4{
+ 				position: relative;
+ 				left: 400px;
+ 				top: 100px;
+ 				font: heebo;
+ 				}
+ 		#final{
+ 				background: #fddb92 0%;
+ 				border: 2px solid black;
+ 				width: 1152;
+ 				height: 110px;
+ 				position: relative;
+ 				text-align: center;
+ 				top: 145px;
+ 				right: 2px;
+ 				
+ 				}
+ 		#icon1{
+ 				width: 30px;
+ 				height: 30px;
+ 				margin: 10px;
+ 				position: relative;
+ 				bottom: 20px;
+ 				}		
+ 		#icon2{
+ 				width: 30px;
+ 				height: 30px;
+ 				margin: 10px;
+ 				}			
+ 		#icon3{
+ 				width: 30px;
+ 				height: 30px;
+ 				margin: 10px;
+ 				}			
+ 		#icon4{
+ 				width: 30px;
+ 				height: 30px;
+ 				margin: 10px;
+ 				}	

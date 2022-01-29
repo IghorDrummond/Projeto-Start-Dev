@@ -1,0 +1,242 @@
+		/*tamanho da pagina e suas definições*/
+		*{
+				margin:  0;
+				padding: 0; 
+				 }
+		#geral{
+				
+				background-image: linear-gradient(-60deg, #16a085 0%, #f4d03f 100%);
+				font-family: heebo;
+ 				width: 1152px;
+ 				height: 2400px;
+ 				margin: auto;
+ 				border: 2px solid black;
+ 				
+ 			 }
+ 		/*acesso as outras paginas*/	 
+ 		#degrade{
+ 				background-image: linear-gradient(-225deg, #FFFEFF 0%, #D7FFFE 150%);
+ 				width: 1152px;
+ 				height: 20px;
+ 		     }		
+ 		#topo{
+ 				text-decoration: none;
+ 				width: 100%;
+ 				height: 50px;
+ 				float: top;
+ 				background-image: linear-gradient(-225deg, #FFFEFF 0%, #D7FFFE 100%);
+ 				text-align: center;
+ 			
+ 		     }
+ 		#pesquisar{
+ 				font: heebo;
+ 				color: black;
+ 				position: relative;
+ 			 	right: 210px;	
+ 			 	bottom: 10px;
+ 				}			
+ 		#fluig{
+ 				text-decoration: none;
+ 				color: black;
+ 				margin:  5px;
+ 				}
+ 		#Blog{
+ 				text-decoration: none;
+ 				color: black;
+ 				margin: 5px;
+ 				}	
+ 		#home{
+ 				text-decoration: none;
+ 				color: black;
+ 				margin: 5px;
+ 				float: center;
+ 				}
+ 		/*a cabeça do meu blog*/		
+ 		#principal{
+ 				position: relative;
+ 				text-align: center;
+ 				align-content: center;
+ 				bottom: 1900px;
+ 				right: 250;
+ 				}		
+ 		#titulo{
+ 				font: 30px heebo ;
+ 				color: black;
+ 				position: relative;
+ 				bottom: 300px;
+				}	
+		/*noticias e conteúdo do meu blog*/			
+ 		#news{
+ 		
+ 				align-content: center;
+ 				text-align: center;
+ 				position: relative;
+ 				bottom: 2100px;
+ 				}		
+ 		#titulo2{
+ 				font: black heebo;
+ 				position: relative;
+ 				right: 30px;
+
+ 				
+ 				}	
+ 		#data1{	
+ 				font: 10px black heebo;
+ 				position: relative;
+ 				right: 30px;
+ 				
+		 		}		
+ 		#lente{	
+ 				width: 400px;
+ 				height: 200px;
+ 				position: relative;
+ 				right: 30px;
+ 				
+ 				}						
+ 		#primeiran{	
+ 				font: black heebo;
+ 	 			position: relative;
+ 	 			right: 30px;
+ 	 			
+ 				}	
+ 		#barra{
+
+ 				position: relative;
+ 				right: 0px;
+ 				bottom: 2180px;
+ 				width: 800px;
+ 				}			
+ 		#titulo3{
+ 				position: relative;
+ 				font: black heebo;
+ 				right: 30px;
+ 				
+ 				}	
+ 		#ameca{
+ 				width: 300px;
+ 				height: 300px;
+ 				position: relative;
+ 				right: 30px;
+ 			
+ 				}	
+ 		#segundan{
+ 				font: black heebo;
+ 				position: relative;
+ 				right: 30px;
+ 				
+ 				}
+ 		#barra2{
+ 				position: relative;
+ 				
+ 				width: 800px;
+ 				}	
+ 		#titulo4{
+ 				position: relative;
+ 				bottom: 2180px;
+ 				right: 30px;
+ 				font: black heebo;
+ 				}								
+ 		#dois{
+ 				font: 10px black heebo;
+ 				position: relative;
+ 				right: 30px;
+ 				
+ 				}		
+ 		#peixe{
+ 				font: black heebo;
+ 				position: relative;
+ 				right: 30px;
+ 				
+ 				width: 400px;
+ 				width: 400px;
+ 				}
+ 		#tres{
+ 				font: 10px black heebo;
+ 				position: relative;
+ 				
+ 				right: 30px;
+ 				}			
+ 		#terceiron{
+				position: relative;
+				right: 30px;
+				
+				}		
+		#barra3{
+				position: relative;
+				
+				width: 800px;
+				}		
+		#titulo5{
+				position: relative;
+				
+				right: 30px;
+				font: black heebo;
+				}
+		#zoom{
+				position: relative;
+				
+				right: 30px;
+				width: 400px;
+				height: 400px;
+				}	
+		#quatro{
+				font: 10px black heebo;
+				position: relative;
+				
+				right: 30px;
+				}					
+		#quarton{
+				position: relative;
+				
+				right: 30px;
+				font: black heebo;
+				}		
+		#barra4{
+				position: relative;
+				
+				width: 800px;
+				}
+		/*rodapé com acesso aos links das minhas rede sociais*/
+		#corpo{
+			    margin: auto;
+				width: 1152px;
+				height: 2400px;
+				background-image: linear-gradient(to right, #ff8177 0%, #ff867a 0%, #ff8c7f 21%, #f99185 52%, #cf556c 78%, #b12a5b 100%);
+				}	
+		#final{
+ 				background: #fddb92 0%;
+ 				border: 2px solid black;
+ 				width: 1152;
+ 				height: 110px;
+				text-align: center;
+				position: relative;
+				bottom: 2100px;
+				}
+ 		#icon1{
+ 				width: 30px;
+ 				height: 30px;
+ 				margin: 10px;
+ 				position: relative;
+ 				bottom: 20px;
+ 				}		
+ 		#icon2{
+ 				width: 30px;
+ 				height: 30px;
+ 				margin: 10px;
+ 				}			
+ 		#icon3{
+ 				width: 30px;
+ 				height: 30px;
+ 				margin: 10px;
+ 				}			
+ 		#icon4{
+ 				width: 30px;
+ 				height: 30px;
+ 				margin: 10px;
+ 				}	
+		#corpo{
+			    margin: auto;
+				width: 1152px;
+				height: 2400px;
+				}	
+	

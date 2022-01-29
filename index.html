@@ -1,0 +1,109 @@
+<html>
+ 	<head>
+ 		<meta charset="UTF-8">
+ 		<meta name="viewport" content="width=device=width, initial-scale=1">
+ 		<title>Home</title>
+ 		<link rel="stylesheet" type="text/css" href="Home/Estilo.css">
+ 		<script type="text/javascript" src="Home/jshome.js"></script> 
+ 	</head>
+ 	<body id="pintar">
+ 		<div id="geral">
+ 			<div id="degrade">
+ 			</div>	
+ 			<!--Barra de pesquisa-->
+	 		<div id="topo">
+ 				<a id="home" href=" " title="Pagina Principal">Home</a>
+ 				<a id="fluig" href="Fluig/Fluig.html" title="Fluig">Fluig</a>
+ 				<a id="Blog" href="Blog/Blog.html" title="Blog">Blog</a>
+ 					<form id="pesquisar" method="" action="">
+ 						<label id="pesquisar">Pesquisar:</label>
+ 						<input id="pesquisar" type="text">
+ 						<input id="pesquisar" type="submit" value="Buscar">
+ 					</form>	
+			</div>
+			<br />
+			<!--Fotos e Descrição-->
+ 				<div id="Principal">
+ 					<img src="Home/minha_foto.png" alt="Minha foto" weight="243" height="243">
+					<h1>Ighor Drummond</h1>
+					<h4>Sou Estudante de engenharia da computação pela universidade de sorocaba (UNISO)<br />e de design grafico pela FIAP ON além de ser formado em profissional de TI pela escola CEDASPY.<h4>
+					<p id="texto"></p>	
+					<a id="curriculo" href="https://drive.google.com/file/d/1f87wpV-ooom6McX6PE0v9u_d0xqL7nop/view?usp=sharing" target="_blank" title="meu curriculo"><button id="botao-bnt" type="button" onclick="myDownload()">Curriculo</button></a>
+				</div>
+			<hr />
+			<br />
+			<!--Grafico de Capacidade-->	
+			 		<div id="grafico">
+						<h2>Minhas Habilidades</h2>
+						<table id="tabela" cellspacing="50">
+							<thead>
+								<tr>
+									<th><p id="ha1">HTML</p></th>
+									<th><p id="ha2">CSS</p></th>
+								</tr>
+							</thead>			
+							<tbody>
+									<td><div id="campo1"><div id="htmlgra">100%</div></div></td>	
+									<td><div id="campo2"><div id="cssgra">70%</div></div></td>
+							</tbody>	
+							<thead>
+									<th><p id="ha3">JavaScript</p></th>
+									<th><p id="ha4">Jquery</p></th>	
+							</thead>
+							<tbody>
+									<td><div id="campo3"><div id="javagra">30%</div></div></td>
+									<td><div id="campo4"><div id="jquerygra">10%</div></div></td>
+							</tbody>
+						</table>
+					</div>
+					
+			<!--Recomendações e rodape--> 			
+			 <hr / id="Sublinha">		
+			 			<div id="recomendacoes">
+			 				<h6 id="TrabalhoRe">Competência</h6>
+			 				<br />				
+			 				<br />
+			 					<h3 id="selecao1">Design Grafico</h3>
+			 					<img id="imagemdesign" align="left" src="Home/Design Grafico.png" alt="">
+			 					<p id="para1">Tenho desenvolvimento em Corel Draw, Corel Photo Paint e Inkscape, Produção de Material Digital e Impresso, <br /> Tratamento de Imagens e Conceitos de Publicidade além de Tipos de Imagens, Ferramentas e Funcionalidades,<br /> Teoria da Cor e por fim, Harmonização de Textos e Imagens.</p>
+			 				<hr id="linha1" />
+			 				<br />
+			 				<br />
+			 				<br />
+			 					<h3 id="selecao2">Marketing Digital</h3>
+			 					<img id="imagemmarketing" aling="left" src="Home/Marketing Digital.png"	alt="Curso cedaspy">
+			 					<p id="para2">Marketing Digital, Inbound Marketing, e-mail Marketing, E-Commerce, Blogs, SEO,<br /> Métricas, Marketing de Afiliação, Vídeo Marketing<br /></p>
+			 				<hr id="linha2"/>	
+			 				<br />
+			 				<br />
+			 				<br />
+			 					<h3 id="selecao3">Office</h3>
+			 					<img id="imagemoffice"aling="left" src="https://uploaddeimagens.com.br/images/003/697/253/full/Pacote_Office.PNG?1643435307" alt="Curso cedaspy">
+			 					<p id="para3">Tenho Conhecimento em Word, Write ou Internet, Produção de Revistas, Jornais e Livros,<br /> Criação de Documentos Profissionais, Normas ABNT, além de Excel e Office,<br /> Planilhas e Gráficos utilizados no planejamento empresarial e na gestão financeira.</p>
+			 				<hr id="linha3" />	
+			 				<br />
+			 				<br />
+			 				<br />
+			 					<h3 id="selecao4">Plataforma Web</h3>
+			 					<img id="imamgemweb" aling="left" src="Home/Plataforma Web.png" alt="Curso cedaspy">
+			 					<p id="para4">Tenho Conhecimento em Google Pesquisas Avançadas ( Maps, Drive e Ferramentas do Google)<br /> além de Publicidade no Facebook, Configurações de Ferramentas, 
+			 					<br />tais com Gerenciador de anúncios e Business Manager,<br /> Melhores Práticas na Criação e Configuração de Anúncios.</p>
+			 				<hr id="linha4"/> 	
+			 			</div>
+			 			<footer id="final">
+				 			<div>
+					 			<a href="https://www.facebook.com/ighor.drummond.1/" target="_blank" title="Facebook">
+					 				<img id="icon1" align="center" src="Home/flaticon-facebook.png" alt="ighor.drummond.1"></a>
+					 			<a href="https://twitter.com/DrummondIghor" target="_blank" title="Twitter">
+					 				<img id="icon2" aling="center" src="Home/flaticon-twitter.png" alt="DrummondIghor"></a>
+					 			<a href="https://www.linkedin.com/in/ighor-drummond-b75326221/" target="_blank" title="Linkedln">
+					 				<img id="icon3" src="Home/flaticon-linkedin.png" alt="ighor-drummond"></a>
+					 			<a href="https://github.com/IghorDrummond" target="_blank" title="GitHub">
+					 				<img id="icon4" src="Home/github-icon-png-7-removebg-preview.png" alt="IghorDrummond"></a>
+					 			<h5>Copyright© 2022 Todos os Direitos Reservados</h5>	 	 	
+					 		</div>	
+					 	</footer>
+				
+		</div>
+	</body>
+</html>	 				 					
